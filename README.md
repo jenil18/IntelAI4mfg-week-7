@@ -1,0 +1,1 @@
+# IntelAI4mfg-week-7
