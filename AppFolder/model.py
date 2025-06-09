@@ -65,10 +65,10 @@ def load_and_train(path):
 # —————————————————————————————— 
 # 2. Streamlit UI Setup 
 # —————————————————————————————— 
-st.title("📦 Order‑to‑Delivery Time Predictor")
+st.title("🚛 Delivery Time Predictor")
 
 data_file = st.sidebar.file_uploader(
-    "Upload your data file (CSV or XLS/XLSX)", 
+    "Upload your data file", 
     type=["csv", "xls", "xlsx"]
 )
 
